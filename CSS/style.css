@@ -48,15 +48,25 @@ li{
     flex-flow: row-reverse wrap;
 }
 
+.direction{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
 .padding{
     padding:10px;
+}
+
+.center{
+    text-align: center;
 }
 
 .box{
     background-image: url('../discord-assets/jumbo.png');
     background-size: cover;
     background-position: center;
-    height: 625px;
+    height: 590px;
     align-items: center;
 }
 
@@ -159,14 +169,17 @@ div > p {
 /* ======MAIN====== */
 
 .format{
-    height: 700px;
+    padding: 50px 0;
     max-width: 1200px;
 
 }
 .images{
-    position: relative;
     justify-content: center;
-    width: 60%;
+    max-width: 100%;
+}
+
+img{
+    max-width: 100%;
 }
 
 .info-box{
@@ -177,10 +190,14 @@ div > p {
 h2{
     align-items: center;
     font-size: 3rem;
-
 }
 
-
+.request{
+    background-image: url('../discord-assets/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
 
 
 /* ======END MAIN====== */
