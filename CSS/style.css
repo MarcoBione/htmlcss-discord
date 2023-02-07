@@ -106,6 +106,7 @@ nav, .header-about, .links, article{
 .nav-menu, .links{
     width: 505px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .header-about{
