@@ -19,7 +19,7 @@
 /* END COLOR PALETTE */
 
 .debug{
-    border: 1px solid black;
+    outline: 1px solid black;
 }
 
 .line-odd{
@@ -98,7 +98,7 @@ nav, .header-about, .links, article{
 }
 
 .nav-menu, .links{
-    width: 500px;
+    width: 505px;
     justify-content: space-between;
 }
 
