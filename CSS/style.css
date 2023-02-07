@@ -65,9 +65,15 @@ nav a{
     color: #000000;
 }
 
-span a{
+.btn-light{
+    background-color: var(--bg-body);
     text-decoration: none;
     color: #000000;
+}
+.btn-dark{
+    background-color: var(--bg-footer);
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .color-nav-links, .text{
@@ -138,8 +144,6 @@ div > p {
 
 .button-styley-d{
     background-color: var(--bg-footer);
-    color: #FFFFFF;
-
 }
 
 .downlogo{
