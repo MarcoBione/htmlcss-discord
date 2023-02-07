@@ -18,9 +18,9 @@
 }
 /* END COLOR PALETTE */
 
-.debug{
+/* .debug{
     outline: 1px solid black;
-}
+} */
 
 .line-odd{
     background-color: var(--bg-body);
@@ -190,6 +190,15 @@ div > p {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.format-end-footer{
+    max-width: 1200px;
+    margin: 0 auto;
+    border-top:var(--button);
+    padding: 20px;
+}
+
+
 .images{
     justify-content: center;
     max-width: 100%;
@@ -270,7 +279,6 @@ footer li{
     max-width: 70%;    
     color: #d3d0d0;
     font-size: .8rem;
-    margin-left: 40px;
     padding: 10px;
 }
 .end-list{
@@ -282,14 +290,29 @@ footer li{
     color: var(--button);
     font-weight: bold;
     padding: 10px;
+    text-align: start;
 }
 
 .title-list{
-    max-width: 70%;
+    max-width:70%;
+    text-align: start;
+    margin-right: 40px; /*#### <---non riesco a dimensionare correttamente ###*/
+
 }
 
+.bottom-footer{
+    background-color: var(--bg-footer);
+    justify-content: space-between;
+}
 
+.bottomFooter img{
+    width: 100px;
+}
 
+hr{
+    border: none;
+    border-top: 1px solid #81879f;
+}
 
 /* ======END FOOTER====== */
 
